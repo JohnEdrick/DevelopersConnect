@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+.home-section {
+  background-color: #3838b5;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  color: #ebebf2;
+}
+
+.nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  padding: 5px 70px 5px 70px;
+  top: 22px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.nav-bar li {
+  display: inline;
+  list-style: none;
+}
+
+.nav-bar .login,
+.nav-bar .sign-up {
+  padding: 8px 20px 8px 20px;
+  margin-left: 2px;
+  font-size: 2vh;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ebebf2;
+  border: 2px solid beige;
+  border-radius: 40px;
+}
+
+.nav-bar .login {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ebebf2;
+}
+
+.center-body {
+  padding: auto;
+  text-align: center;
+}
+
+.center-body h1 {
+  font-size: 8vh;
+  font-family: "Zen Dots", cursive;
+  word-spacing: -20px;
+  letter-spacing: 2px;
+}
+
+.center-body p {
+  font-size: 2.5vh;
+  color: #d4d4d8;
+  letter-spacing: 1.3px;
+  padding-bottom: 30px;
+}
+
+.center-body a {
+  font-size: 2.5vh;
+  color: #3838b5;
+  background-color: #ebebf2;
+  padding: 8px 20px 8px 20px;
+  border-radius: 52px;
+  border: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=home.css.map */

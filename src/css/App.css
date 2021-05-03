@@ -1,0 +1,14 @@
+.App {
+  color: red;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1b1b1b;
+}
+html {
+  scroll-behavior: smooth;
+}
