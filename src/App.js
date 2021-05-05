@@ -1,13 +1,12 @@
-import "./css/App.css";
-import "./css/home.css";
-import "./css/login.css";
-import Home from "./components/home";
-import Login from "./components/login";
+import Home from "./pages/home";
+import Login from "./pages/login";
+import { GlobalStyle } from "./globalStyles.style";
 import { Routes, Route } from "react-router";
 
 function App() {
   return (
     <div>
+      <GlobalStyle />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
